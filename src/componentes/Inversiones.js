@@ -124,6 +124,10 @@ export const Inversiones = () => {
 
                 <br></br>
 
+                <div className='Video'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tzsUPO6xcDo?si=6M_1z-J6hOy5kNmZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
             </ul>
             Este proceso te permitirá invertir en marcas de café ecuatoriano y apoyar el crecimiento de la industria del café en el país. ¡Espero que encuentres esta guía útil!
         </div>
