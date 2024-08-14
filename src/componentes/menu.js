@@ -18,13 +18,7 @@ export const Menu = () => {
         <Navbar className="navbar-custom" variant="dark" expand="lg">
         
         <Navbar.Brand href="#home">SABORES DE ECUADOR</Navbar.Brand>
-        <Navbar.Brand href="#home" id='carrito'><a 
-              className="ml-3" 
-              href="#" 
-              onClick={handleLoginClick}
-            >
-              <img src={carrito} alt="Usuario" width="40" />
-        </a></Navbar.Brand>
+        
 
     </Navbar>
     </div>
