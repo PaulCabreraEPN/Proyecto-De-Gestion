@@ -62,28 +62,29 @@ const Login = () => {
     return (
         <div>
             <img src={logo} alt="logo" width={'90px'} />
-            <div className="combobox-container mb-4 row">
-                <label htmlFor="userType" className="col-sm-1 col-form-label">Tipo de Usuario</label>
-                <div className="col-sm-2">
-                    <select
-                        className="form-control"
-                        id="userType"
-                        value={paraTipoUsuario}
-                        onChange={cambioUsuario}
-                    >
-                        <option value="administrador">Marcas</option>
-                        <option value="cliente">Cliente</option>
-                    </select>
-                </div>
-            </div>
-
             <div>
-                <img src={user} alt="user" className="user" width={'90px'} />
                 <div className="contenedor-login">
+                    <img src={user} alt="user" className="user" width={'90px'} />
+
+                    <div id="tiposUsuarios" className="combobox-container mb-4 row">
+                        <label htmlFor="userType" className="col-sm-0 col-form-label">Tipo de Usuario</label>
+                        <div className="col-sm-0">
+                            <select
+                                className="form-control"
+                                id="userType"
+                                value={paraTipoUsuario}
+                                onChange={cambioUsuario}
+                            >
+                                <option value="administrador">Marcas</option>
+                                <option value="cliente">Cliente</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div className="mb-3 row">
                         <label htmlFor="inputEmail" className="col-sm-2 col-form-label">Usuario</label>
                         <div className="col-sm-10">
-                            <input type="email" className="form-control" id="inputEmail" />
+                            <input type="email" className="form-control" id="inputEmail" placeholder="Ingrese su correo electronico o nombre de usuario"/>
                             <div id="errorEmail" className="text-danger"></div> {/* Error de email */}
                         </div>
                     </div>
@@ -92,18 +93,20 @@ const Login = () => {
                         <label htmlFor="inputPassword" className="col-sm-2 col-form-label">Contraseña</label>
                         <div className="col-sm-10">
                             <input type="password" className="form-control" id="inputPassword" />
+                            <br /><br />
                             <div id="errorContrasenia" className="text-danger"></div> {/* Error de contraseña */}
                         </div>
                     </div>
                     <div id="errorEleccion"></div>
-
-                    <button type="button" className="btn btn-success" onClick={manejarLogin}>
-                        Iniciar Sesión
-                    </button>
-                    <br /><br />
-                    <button type="button" onClick={handleCancel} className="btn btn-secondary">
-                        Cancelar
-                    </button>
+                    <div className="botonesLogin">
+                        <button type="button" className="btn btn-success" onClick={manejarLogin}>
+                            Iniciar Sesión
+                        </button>
+                        <br /><br />
+                        <button type="button" onClick={handleCancel} className="btn btn-secondary">
+                            Cancelar
+                        </button>
+                    </div>
                     <br /><br />
                     <p>¿Olvidaste tu contraseña?</p>
                     <p>No tienes cuenta? <a onClick={handleRegClick}>Regístrate</a></p>
