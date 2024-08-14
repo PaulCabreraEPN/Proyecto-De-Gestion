@@ -18,7 +18,7 @@ import promo4 from './componentes/imagenes/Promocionales/Promo_ice_cream.jpg';
 import { Promociones } from './componentes/Promociones.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MyCarrito } from './componentes/MyCarrito.js';
-
+import InicioMarcas from './componentes/inicioMarcas';
 
 
 function HomePage() {
@@ -85,12 +85,10 @@ function App() {
         <Route path='/Inversiones' element={<Inversiones />} />
         <Route path='/Sobre_Nosotros' element={<Sobre_Nosotros />} />
         <Route path='/Promociones' element={<Promociones />} />
+        <Route path='/InicioMarcas'  element={<InicioMarcas />}/>
         <Route path='/MyCarrito' element={<MyCarrito/>} />
       </Routes>
     </Router>
   );
 }
-
-
-
 export default App;
