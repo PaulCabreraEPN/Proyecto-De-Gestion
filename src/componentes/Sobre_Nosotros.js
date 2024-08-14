@@ -37,7 +37,7 @@ export const Sobre_Nosotros = () => {
                     <div class='col justify-content-center d-flex' id='Marca'>
                         <img src={imagen2} alt="logo" height={'270px'} />
                     </div>
-                    <div class='col ' id='Marca' >
+                    <div class='col ' id='Marca' > 
                         <h2 id='titulo-1'>¿Quiénes Somos?</h2>
                         <p>Somos una plataforma digital innovadora diseñada para revitalizar la industria cafetera ecuatoriana. Conectamos directamente a los productores de café con compradores a nivel nacional, eliminando intermediarios, asegurando mejores precios para los agricultores. Creamos una relación cercana con cada marca cafetera, celebrando la riqueza y diversidad de nuestro café.</p>
                     </div>
