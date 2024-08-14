@@ -1,3 +1,14 @@
 .Inversiones{
     background-color: #f1ead7;
 }
+
+.bloque{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.Video{
+    text-align: center;
+}
