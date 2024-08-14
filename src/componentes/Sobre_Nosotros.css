@@ -2,14 +2,14 @@
 
 #Marca{
     margin: 5%;
-    color: azure;
+    color: rgb(0, 0, 0);
 }
 
 #titulo-1{
-    color: #DDAE64;
+    color:#a65811!important;
 }
 
 #inf_Sbr{
-    color: azure;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
