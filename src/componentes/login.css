@@ -6,12 +6,13 @@ body{
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color:  rgba(245, 245, 245, 1);
     text-align: center;
     margin-top: 1%;
+
 }
 
 .contenedor-login input{
@@ -36,17 +37,18 @@ body{
 .btn-success {
     background-color:  #a65811!important;
     border-color:  #a65811!important;
-    border-radius: 10px;
+    border-radius: 30px;
+    padding: 4%;
 }
 
 .btn-secondary {
     background-color: #a65811!important;
     border-color:  #a65811!important; 
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 a {
-    color: #007bff;
+    color:#C68E4A;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
@@ -55,12 +57,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .combobox-container {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(0, 0, 0); 
 }
 
 .combobox-container select {
@@ -69,11 +71,15 @@ a:hover {
 
 .botonesLogin{
     display: flex;
-    margin-left:28%;
+    margin-left:22%;
 }
 
 .botonesLogin button{
-    margin-right: 7%;
+    margin-right: 20%;
     align-content: center;
 }
-   
+
+.pie{
+    margin-top: 5%;
+    background-image: linear-gradient(#C68E4A, #DDAE64);
+}

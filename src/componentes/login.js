@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './imagenes/MainLogo.png';
 import user from './imagenes/Usuario_logo.webp';
+
 import './login.css';
 
 const Login = () => {
@@ -24,10 +25,8 @@ const Login = () => {
     const manejarLogin = () => {
         let email = document.getElementById("inputEmail").value.trim();
         let contrasenia1 = document.getElementById("inputPassword").value.trim();
-        let correo = "cliente@gmail.com";
-        let contrasenia2 = "Cliente01";
-        let correAdmi = "administrador@gmail.com";
-        let contrasenia3 = "Administrador01";  
+        let correo = "usuario@gmail.com";
+        let contrasenia2 = "Usuario01";
 
         let error1 = document.getElementById("errorEmail");
         let error2 = document.getElementById("errorContrasenia");
@@ -82,18 +81,17 @@ const Login = () => {
                     </div>
 
                     <div className="mb-3 row">
-                        <label htmlFor="inputEmail" className="col-sm-2 col-form-label">Usuario</label>
-                        <div className="col-sm-10">
+                        <label htmlFor="inputEmail" className="col-sm-2 col-form-label">Usuario: </label>
+                        <div className="col-sm-0">
                             <input type="email" className="form-control" id="inputEmail" placeholder="Ingrese su correo electronico o nombre de usuario"/>
                             <div id="errorEmail" className="text-danger"></div> {/* Error de email */}
                         </div>
                     </div>
 
                     <div className="mb-3 row">
-                        <label htmlFor="inputPassword" className="col-sm-2 col-form-label">Contraseña</label>
-                        <div className="col-sm-10">
+                        <label htmlFor="inputPassword" className="col-sm-2 col-form-label">Contraseña: </label>
+                        <div className="col-sm-0">
                             <input type="password" className="form-control" id="inputPassword" />
-                            <br /><br />
                             <div id="errorContrasenia" className="text-danger"></div> {/* Error de contraseña */}
                         </div>
                     </div>
@@ -112,6 +110,7 @@ const Login = () => {
                     <p>No tienes cuenta? <a onClick={handleRegClick}>Regístrate</a></p>
                 </div>
             </div>
+            <div className="pie">.</div>
         </div>
     );
 }

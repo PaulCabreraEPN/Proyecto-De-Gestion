@@ -56,7 +56,7 @@ export const Promociones = () => {
           </div>
 
         </div>
-        <Pie></Pie>
+        <div className="pie">.</div>
         
     </div>
   )
