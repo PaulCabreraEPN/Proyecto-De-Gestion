@@ -1,0 +1,57 @@
+/* Estilo general para el contenedor */
+.contenedor-login {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.user{
+    align-items: center;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+
+}
+    
+.col-form-label {
+    text-align: left;
+    font-weight: 600;
+}
+
+
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.combobox-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    color: white;
+}
+
+.combobox-container select {
+    max-width: 200px;
+}

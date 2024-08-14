@@ -1,0 +1,21 @@
+.imgModal{
+  margin-bottom: 10px;
+}
+
+.boton_modal{
+  margin-bottom: 20px;
+}
+
+.pie_modal{
+  display: flex;
+  justify-content: center;
+}
+
+.b1_modal{
+  display: flex;
+  justify-content: center;
+}
+
+.precio_modal{
+  color: rgb(0, 185, 0);
+}

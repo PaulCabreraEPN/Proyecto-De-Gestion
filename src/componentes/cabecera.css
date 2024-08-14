@@ -1,0 +1,50 @@
+.botones_inicio{
+    place-items: center;
+}
+
+#cabecera{
+    background-color: #f1ead7;
+}
+
+button.boton_inicio{
+    font-family:Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.miNavbar{
+    background-color:#f1ead7;
+    padding: 0%;
+}
+
+.contenedor_nav{
+    background-color:#f1ead7;
+    color: azure;
+    margin:0%;
+}
+
+#secciones{
+    color: #a85418;
+    font-size: larger;
+}
+
+#boton_inicio{
+    padding-top: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color:#a65811;
+  padding: 10px 20px;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border: none;
+}
+
+#boton_inicio:hover{
+    background-color: #db8e46;
+}

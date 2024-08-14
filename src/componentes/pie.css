@@ -1,0 +1,33 @@
+.mipie {
+  padding: 2.5%;
+  background-color: #a65811;
+}
+  
+.icono {
+    width: 50px;
+}
+  
+.politicos {
+    margin-top: 4%;
+    color: azure;
+    text-align: center;
+}
+
+.Fin{
+    text-align: center;
+}
+  
+.Fin {
+    color: azure;
+    text-decoration: none;
+}
+  
+@media (max-width: 576px) {
+    .icono {
+      width: 40px;
+    }
+}
+
+#pie{
+  background-color:#a65811;
+}

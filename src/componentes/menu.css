@@ -1,0 +1,55 @@
+.navbar-custom {
+    background-color: #a65811!important; /* Cambia el color de fondo */
+    margin: 0;
+}
+
+
+.navbar-collapse-left {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+.nav-link-custom{
+    margin-right: 20px;
+}
+  
+
+#titulo{
+    text-align: left;
+    height: 40px;
+}
+
+.botones_menu{
+    text-align: right;
+}
+
+a.nav-link{
+    color: azure;
+    font-size: large;
+}
+
+a.nav-link:hover{
+    color: #0f0f29;;
+}
+
+.botones{
+    padding: 0%;
+    width: 150px;
+    height: 50px;
+    place-items: center;
+    border-radius: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:#DDAE64;
+    text-align: center;
+    border: none;
+}
+
+.botones:hover{
+    background-color: #c2821c;
+}
+
+#carrito {
+    margin-left: auto; /* Empuja el carrito hacia la derecha */
+  }
