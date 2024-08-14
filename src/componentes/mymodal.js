@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './mymodal.css'
-
+import { useNavigate } from 'react-router-dom';
 
 function MyModal({imagen, titulo, etiqueta, info, precio, desc}) {
   const [show, setShow] = useState(false);
@@ -10,7 +10,10 @@ function MyModal({imagen, titulo, etiqueta, info, precio, desc}) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  
+  const navigate = useNavigate();
+  const handleClick = () =>{
+    navigate('/Contactos')
+  }
 
   return (
     <>
@@ -44,8 +47,8 @@ function MyModal({imagen, titulo, etiqueta, info, precio, desc}) {
           <p>{desc}</p>
         </Modal.Body>
         <Modal.Footer className='pie_modal'>
-          <Button variant="success">
-            Comprar
+          <Button variant="success" onClick={handleClick}>
+            Registrarse
           </Button>
         </Modal.Footer>
       </Modal>

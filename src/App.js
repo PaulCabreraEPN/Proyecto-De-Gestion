@@ -20,6 +20,7 @@ import { Promociones } from './componentes/Promociones.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MyCarrito } from './componentes/MyCarrito.js';
 import InicioMarcas from './componentes/inicioMarcas';
+import Contactos from './componentes/Contactos.js'
 
 
 
@@ -133,6 +134,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/Contactos' element={<Contactos />} />
         <Route path='/registro' element={<Registro />} />
         <Route path='/login' element={<Login />}  />
         <Route path='/Productos' element={<Productos />} />
