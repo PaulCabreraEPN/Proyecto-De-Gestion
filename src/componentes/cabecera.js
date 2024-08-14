@@ -34,7 +34,7 @@ export const Cabecera = () => {
 
   return (
     
-    <Navbar expand="lg" className='navbar navbar-dark' id='cabecera'>
+    <Navbar expand="lg" className='navbar navbar-light' id='cabecera'>
       
         <Navbar.Brand href="http://localhost:3000/">
           <img src={logo} alt="Logo" width="150" />
