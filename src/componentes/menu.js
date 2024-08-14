@@ -17,7 +17,7 @@ export const Menu = () => {
     <div class='menu'>
         <Navbar className="navbar-custom" variant="dark" expand="lg">
         
-        <Navbar.Brand href="https://saboresdeecuador-qkf02k3xl-paul-cabreras-projects-5ab7ad97.vercel.app/">SABORES DE ECUADOR</Navbar.Brand>
+        <Navbar.Brand href="https://sabores-ecuador.vercel.app/">SABORES DE ECUADOR</Navbar.Brand>
         
 
     </Navbar>

@@ -36,13 +36,13 @@ export const Cabecera = () => {
     
     <Navbar expand="lg" className='navbar navbar-light' id='cabecera'>
       
-        <Navbar.Brand href="https://saboresdeecuador-qkf02k3xl-paul-cabreras-projects-5ab7ad97.vercel.app/">
+        <Navbar.Brand href="https://sabores-ecuador.vercel.app/">
           <img src={logo} alt="Logo" width="150" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="nav-link-custom" href='https://saboresdeecuador-qkf02k3xl-paul-cabreras-projects-5ab7ad97.vercel.app/' id='secciones'>Inicio</Nav.Link>
+            <Nav.Link className="nav-link-custom" href='https://sabores-ecuador.vercel.app/' id='secciones'>Inicio</Nav.Link>
             <Nav.Link className="nav-link-custom" onClick={handleLoginClickPro} id='secciones'>Marcas</Nav.Link>
             <Nav.Link className="nav-link-custom" onClick={handleLoginClickProm} id='secciones'>Eventos</Nav.Link>
             <Nav.Link className="nav-link-custom" onClick={handleLoginClickIn} id='secciones'>Inversiones</Nav.Link>
