@@ -30,6 +30,14 @@ function HomePage() {
     navigate('/Promociones');
   };
 
+  const handleLoginClickIn = () => {
+    navigate('/Inversiones');
+  };
+
+  const handleLoginClickMa = () => {
+    navigate('/Productos');
+  };
+
   
   return (
     <>
@@ -44,7 +52,7 @@ function HomePage() {
             </div>
             <div className='col-6' id='cabezaProm'>
             <br></br>
-              <button type='button' onClick={handleLoginClickProm} className='botonProm'>Ver todas las Marcas</button>
+              <button type='button' onClick={handleLoginClickMa} className='botonProm'>Ver todas las Marcas</button>
             </div>
           </div>
           <div className='row'>
@@ -84,7 +92,7 @@ function HomePage() {
               <p>
               En nuestra plataforma, te ofrecemos la oportunidad de invertir en algunas de las marcas de café más prometedoras de Ecuador. Cada marca tiene una historia única y una visión apasionante que busca elevar la calidad del café ecuatoriano a nuevas alturas.
               </p>
-              <button type='button' className='botones'>Invierte Aquí</button>
+              <button type='button' className='botones' onClick={handleLoginClickIn}>Invierte Aquí</button>
             </div>
           </div>
         </div>
@@ -103,7 +111,7 @@ function HomePage() {
               <p>
               Cada evento es una oportunidad para sumergirte en la cultura cafetera de Ecuador y compartir la pasión que tenemos por el café. Ven y celebra con nosotros el legado del café ecuatoriano, conoce a otros entusiastas y crea recuerdos inolvidables.
               </p>
-              <button type='button' className='botones'>Descubre Aquí</button>
+              <button type='button' className='botones' onClick={handleLoginClickProm}>Descubre Aquí </button>
             </div>
             <div className='col-12 col-md-6 col-lg-6'>
               <img src={festival_img} alt="Inversion" className='Inversion' width={'300px'}/>
