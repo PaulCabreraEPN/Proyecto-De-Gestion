@@ -4,7 +4,8 @@ import { Menu } from './menu.js';
 import { Cabecera } from './cabecera.js';
 import { Pie } from './pie.js';
 import './Sobre_Nosotros.css'
-import taza from './imagenes/Cafe_info.jpg'
+import imagen1 from './imagenes/imagen2.jpeg'; 
+import imagen2 from './imagenes/imagen3.webp'; 
 
 export const Sobre_Nosotros = () => {
   return (
@@ -20,7 +21,7 @@ export const Sobre_Nosotros = () => {
                         <p>Innovación, conexión y tradición son las tres palabras que nos definen. En nuestra plataforma, el café ecuatoriano nunca ha estado tan expuesto ni tan valorizado. Nuestra misión es apoyar y promover productos nacionales, facilitando su expansión en el mercado. Creemos en el potencial de cada grano cultivado en la tierra ecuatoriana  y en el impacto positivo que puede tener en nuestra comunidad.</p>
                     </div>
                     <div class='col justify-content-center d-flex' id='Marca'>
-                        <img src={logo} alt="logo" height={'270px'} />
+                        <img src={imagen1} alt="logo" height={'270px'} />
                     </div>
                 </div>
 
@@ -34,7 +35,7 @@ export const Sobre_Nosotros = () => {
                 </div>
                 <div class='row'>
                     <div class='col justify-content-center d-flex' id='Marca'>
-                        <img src={taza} alt="logo" height={'270px'} />
+                        <img src={imagen2} alt="logo" height={'270px'} />
                     </div>
                     <div class='col ' id='Marca' >
                         <h2 id='titulo-1'>¿Quiénes Somos?</h2>
