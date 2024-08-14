@@ -31,6 +31,7 @@ const Login = () => {
 
         let error1 = document.getElementById("errorEmail");
         let error2 = document.getElementById("errorContrasenia");
+        let errorEleccion = document.getElementById("errorEleccion");
 
         error1.textContent = "";
         error2.textContent = "";
@@ -52,6 +53,8 @@ const Login = () => {
                 window.location.href = "/"; 
             } else if (paraTipoUsuario === "administrador") {
                 window.location.href = "/inicioMarcas";
+            } else if (paraTipoUsuario === " ") {
+                errorEleccion.textContent="Se tiene que seleccionar el tipo de usuario"; 
             }
         }
     };
@@ -92,6 +95,7 @@ const Login = () => {
                             <div id="errorContrasenia" className="text-danger"></div> {/* Error de contraseña */}
                         </div>
                     </div>
+                    <div id="errorEleccion"></div>
 
                     <button type="button" className="btn btn-success" onClick={manejarLogin}>
                         Iniciar Sesión
